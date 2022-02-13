@@ -1,0 +1,239 @@
+ul
+{
+	background-color: #042354;
+	margin: 0;
+	overflow: hidden;
+	padding:  8px;
+	height: 80px;
+}
+
+body
+{
+	margin-top: 0px;
+    margin: 0;
+    background-color: #E9E9E9;
+}
+h1
+{
+    font-size: 18px;
+    padding-bottom: 0px;
+}
+p
+{
+    font-size: 12px;
+}
+#menu ul img
+{
+    padding: 15px;
+    width: auto;
+    height: 57px;
+    margin-left: 240px;
+}
+.mainbox
+{
+  width: 960px;
+  margin: 0px auto;
+}
+.text
+{
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-family: 'Arial', sans-serif;
+    color: #415C6C;
+}
+.box
+{
+    background-color: #A4DDDE;
+    border: none;
+    display: block;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #415C6C;
+    margin-top: 14px;
+    margin: 12px;
+    height: 207px;
+}
+
+.alltext
+{
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    word-spacing: 10px;
+}
+.buttons
+{
+    margin: 0px;
+    margin-left: 74px;
+}
+.buttons button 
+{   
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+    width: 150px;
+    height: 42px;
+    background: -webkit-linear-gradient(#04235A 50%, #04233C 50%);
+}
+.button
+{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #042354;
+}
+.buttons span a
+{ 
+    font-size: 12px;
+    color: #337CA9;
+    text-decoration: underline;
+}
+.warning img
+{
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-top: 52px;
+}
+.services img
+{
+    margin-left: 413px;
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-top: 52px;
+}
+.language h2
+{
+    margin-top: -44px;
+    margin-right: 100px;
+    float: right;
+    font-size: 12px;
+    font-family: 'Arial', sans-serif;
+    color: #415C6C;
+    font-weight: lighter;
+}
+.language a
+{
+    margin-top: -60px;
+    float: right;
+    width: 60px;
+    display: block;
+    padding: 5px 0px 5px 38px;
+    text-decoration: underline;
+    border: 1px solid black;
+}
+
+.username label
+{
+  width: 80px;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 4px;
+  padding-bottom: 26px;
+  font-size: 13px;
+}
+.username input
+{
+    width: 270px;
+    padding: 5px 10px;
+    border: 1px solid #75C4D5;
+    color: #415C6C;
+}
+.password label
+{
+  width: 80px;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 4px;
+  padding-bottom: 26px;
+  font-size: 13px;  
+}
+.password input
+{
+    width: 270px;
+    padding: 5px 10px;
+    border: 1px solid #75C4D5;
+    color: #415C6C;
+}
+.warning span
+{
+    float: left;
+    margin-top: 55px;
+    font-size: 12px;
+}
+.warning span a
+{  
+    float: left;
+    margin-top: 3px;
+    font-size: 12px;
+    color: #337CA9;
+    text-decoration: underline;
+}
+.warning a
+{
+    font-size: 12px;
+    color: #337CA9;
+    text-decoration: underline;
+}
+.warning span p
+{
+    float: left;
+    margin: 3px 3px;
+}
+.services a
+{
+    margin-top: 52px;
+    float: right;
+    color: #337CA9;
+    text-decoration: underline;
+    font-size: 12px;
+}
+.boxes
+{
+    padding-top: 1px;
+    border: none;
+    height: 305px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;;   
+}
+.footer 
+{
+  margin-top: 50px;
+  border-top: 4px solid #1DBFC2;
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #042354;
+  color: #fff;
+   font-size: 12px;
+    font-family: 'Arial', sans-serif;
+}
+.language button
+{
+    float: right;
+    margin-top: -49px;
+   
+    height: 28px;
+    width: 94px;
+}
+.language button img
+{
+   margin: -11px;
+    margin-top: -3px;
+    height: 28px;
+    width: 95px;
+}
+.language button p
+{
+    margin-top: -14px;
+    margin-right: -24px;
+    font-size: 12px;
+    font-family: 'Arial', sans-serif;
+    color: #415C6C;
+    text-decoration: underline;
+}
